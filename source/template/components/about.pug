@@ -1,0 +1,80 @@
+header.header
+    .wrapper
+        .logo.green
+            a(href="./")
+                img(src="./images/icon/logo-green.svg", alt="logo")
+                span Курортный поселок для жизни
+        .header__block
+            .header__phone.green
+                a(href="#") Заказать звонок
+                a(href="tel:+ 79990000000")
+                    img(src="./images/icon/phone-green.svg", alt="phone")
+                    | + 7 999 000-00-00
+            nav.menu
+                ul.green
+                    li.active
+                        a(href="#") О проекте 
+                    li
+                        a(href="#") Выбрать участок
+                    li
+                        a(href="#") Контакты
+section.about.wrapper
+    h2 О проекте 
+    .about__wrap
+        .about__item
+            .about__title
+                img(src="./images/icon/houses.svg", alt="houses")
+                h3 Перспектива вложения
+            p Покупка земельного участка у моря – выгодная инвестиция в строительства дома для жизни и отдыха. Приобретая земельный участок, вы определенно сделаете выгодное вложение и приумножите свои деньги в условиях нестабильной экономической ситуации.
+        .about__item
+            .about__title
+                img(src="./images/icon/forest.svg", alt="forest")
+                h3 Отличная экология
+            p Экологически чистый район, отсутствие негативных факторов. Балтийское море и озеро Синявинское в шаговой доступности. Климатические и природные условия способствуют комфортному отдыху круглый год. Лучший пляж в Прибалтике – награда «Голубой флаг» получена в 2019 и 2020 гг. Это международная награда (FEE) присуждается прибрежным зонам, советующим требованиям высокого качества морской воды, безопасности и уровню экологии.
+        .about__item
+            .about__title
+                img(src="./images/icon/field.svg", alt="field")
+                h3 Уникальные видовые характеристики
+            p Самое чистое море и самые широкие пляжи на всем побережье. Красивые берега и лагуны, разнообразная растительность, живописное озеро.
+        .about__item
+            .about__title
+                img(src="./images/icon/map-icon.svg", alt="map")
+                h3 Териториальное преимущество
+            p 30 км от Аэропорта «Храброво», 3км от п. Янтарный (в поселке развитая инфраструктура с европейским сервисом). 30 км от г. Калининград. Близость в границе с ЕС. Высокий уровень социальной среды.
+section.form
+    h2 Оставить заявку
+    .form__wrap
+        .form__col
+            label Имя
+            input(type="text", name="name")
+        .form__col
+            label Телефон
+            input(type="tel", name="phone")
+        .form__col
+            label Ваш комментарий
+            textarea(name="text", cols="30", rows="10")
+        .form__btn
+            input(type="checkbox", name="check")#check
+            label(for="check") Я принимаю условия пользовательского соглашения
+            input(type="submit", value="Отправить")
+section.map
+    <div id="map" style="width: 100%; height: 701px"></div>
+    .wrapper
+        .map__info
+            h3 Расположение
+            p Поселок Синявино находится на берегу Балтийского моря, в Янтарном городском округе Калининградской области в часе езды от Калининграда.
+            p В шаговой доступности — пляж и озеро Синявинское.
+footer.footer
+    .wrapper
+        .footer__copyright
+            p © 2020 
+                a(href="#") Политика конфиденциальности
+            p
+                a(href="mailto:example@gmail.com") example@gmail.com 
+                | — электронная почта для обращений с вопросом о своих персональных данных, в том числе об их удалении.
+        .footer__links
+            .footer__text
+                a(href="#") Создание сайтов
+                a(href="#") Продвижение сайтов
+            a(href="#")
+                img(src="./images/icon/kontur.svg", alt="kontur")

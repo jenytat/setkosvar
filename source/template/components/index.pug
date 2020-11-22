@@ -1,0 +1,26 @@
+.form-footer
+    .container
+        h3 Остались вопросы?
+        p Оставьте свои контакты и наш менеджер свяжется с Вами
+        form(action="#")
+            .form-footer__wrap
+                .form-footer__block
+                    .form-footer__name
+                        label Имя *
+                        input(type="text")
+                    .form-footer__contact
+                        span
+                            label Телефон *
+                            input(type="text", placeholder="+7 (___) ___ - __ - __")
+                        span
+                            label Почта
+                            input(type="text")
+                .form-footer__block
+                    label Комментарий
+                    textarea(name="text", cols="30", rows="10", placeholder="Комментарий")
+            .form-footer__wrap.form-footer__btn
+                .form-footer__text
+                    input(type="checkbox",)#form-check
+                    label(for="form-check") Нажимая на кнопку "Отправить", я даю согласие на 
+                        a(href="#") обработку персональных данных
+                input(type="submit", value="Отправить")
